@@ -69,7 +69,7 @@ public class Image2PdfService {
                     content.drawImage(pdImage, x, y, drawW, drawH);
                 }
             }
-            doc.save("output.pdf");
+            doc.save(outputPath);
         }
     }
 }
